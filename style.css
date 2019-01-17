@@ -1,35 +1,36 @@
-<!DOCTYPE html>
-<html>
-<head>
-.favorite {
-    color: red !important;
-    font-weight: bold !important;
-  }
-<style> 
-#main {
-  width: 70px;
-  height: 300px;
-  border: 1px solid #c3c3c3;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-align-content: center;
-  align-content: center;
+h1 {
+  color: navy;
+  text-align: center
+} 
+p {
+  background-color: black
+}
+h2 { outline-color: navy;
+    font-size: 20px;
+    text-align: center
+ }
+ body {
+  background-color: lightblue;
+  border-image: fill
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding:1px;
+  border:1px solid #02403b;
+  background-color:#ff0;
+} 
+h3 { text-align: center, bold, (25px) navy
+     
+}
+h4 { text-align: center, bold, (25px) navy
+  
+}
+h5 { text-align: center, bold, (25px) navy
+
 }
 
-#main div {
-  width: 70px;
-  height: 70px;
-}
-</style>
-</head>
-<body>
 
-<h1>The align-content Property</h1>
 
-<div id="main">
-  <div style="background-color:lightblue;"></div>
-</div>
-</body>
-</html>
